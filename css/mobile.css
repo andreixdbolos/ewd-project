@@ -1,0 +1,231 @@
+@media (max-width: 1025px) {
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+
+  #showcase .showcase-content h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: var(--crem);
+    margin-bottom: 50px;
+  }
+
+  #preview .preview-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    grid-gap: 50px;
+  }
+
+  #preview .preview-content .preview-sneaker {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #preview .preview-content .preview-sneaker img {
+    height: 270px;
+    width: 220px;
+    border-radius: 15px;
+  }
+
+  #products .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #products .container .product {
+    width: 500px;
+  }
+
+  #products .container .product img {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar .container .meniu ul {
+    display: none;
+  }
+
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .navbar .container .meniu .hamburger .middle-bar .top-bar {
+    background-color: var(--gold);
+    height: 3px;
+    width: 25px;
+    position: absolute;
+    bottom: 7px;
+  }
+
+  .navbar .container .meniu .hamburger .middle-bar {
+    background-color: var(--gold);
+    height: 3px;
+    width: 25px;
+    position: relative;
+  }
+
+  .navbar .container .meniu .hamburger .middle-bar .bottom-bar {
+    background-color: var(--gold);
+    height: 3px;
+    width: 25px;
+    position: absolute;
+    top: 7px;
+  }
+
+  .navbar .container .meniu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    margin-top: 25px;
+    background-color: var(--crem);
+    border-radius: 10px;
+    padding: 0.5rem;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+
+  .navbar .container .meniu ul li {
+    margin: 3px;
+    transition: none;
+  }
+
+  .hidden {
+    visibility: hidden;
+    opacity: 0 !important;
+    transition: visibility 0.5s ease 1s, opacity 0.5s ease;
+  }
+
+  #showcase .showcase-content h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: var(--crem);
+    margin-bottom: 50px;
+  }
+
+  #showcase .showcase-content a {
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.25s ease;
+  }
+
+  #preview .preview-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    grid-gap: 50px;
+  }
+
+  #preview .preview-content .preview-sneaker img {
+    height: 250px;
+    width: 200px;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  #preview .preview-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+
+  #preview .preview-content .preview-sneaker {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #preview .preview-content .preview-sneaker img {
+    height: 250px;
+    width: 220px;
+    border-radius: 15px;
+  }
+
+  #bar .bar-content h2 {
+    font-size: 54px;
+  }
+
+  #bar .bar-content {
+    height: 250px;
+  }
+
+  #products .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+
+  #products .container .product {
+    width: 360px;
+    margin: 0 auto;
+  }
+
+  #shoe-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+
+  #shoe-container img {
+    height: 250px;
+    width: 400px;
+    border-radius: 15px;
+  }
+
+  #shoe-container .shoe-content {
+    margin-top: -150px;
+  }
+
+  #about .about-content .about-text p {
+    width: 330px;
+    font-size: 19px;
+  }
+
+  #about .about-content .about-text h2 {
+    width: 330px;
+  }
+
+  #login-content {
+    width: 330px;
+    height: 450px;
+  }
+
+  #login-content .login-form form #login-container a {
+    font-size: 16px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  padding: 0 20px;
+  background-color: var(--gri);
+}
+
+li {
+  padding: 10px;
+  margin: 0 10px;
+  color: white;
+  height: 40px;
+  transition: all 0.25s ease;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li a,
+form input {
+  text-decoration: none;
+  color: var(--gold);
+  font-family: Lexend, sans-serif;
+  font-size: 20px;
+}
+
+li:hover {
+  color: var(--gold);
+  background-color: var(--crem);
+  transform: scale(1.05);
+}
+
+.navbar .container .logo a img {
+  height: 85px;
+  width: 85px;
+}
+
+.navbar .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: var(--maxwidth);
+}

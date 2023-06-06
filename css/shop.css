@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+#bar .bar-content {
+  height: 300px;
+  background-color: var(--crem);
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Lexend, sans-serif;
+  font-size: 50px;
+}
+
+#bar .bar-content .bar-text {
+  animation: fade-in 0.75s ease 0.15s forwards;
+  opacity: 0;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.linie {
+  background-color: rgb(143, 140, 140);
+  width: 95%;
+  height: 1px;
+  margin: 50px auto;
+}
+
+#products .container {
+  width: 30%;
+  height: 3 0%;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.25s ease;
+}
+
+#products .container .product {
+  width: 100%;
+  height: 100%;
+  background-color: var(--crem);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.25s ease;
+  font-family: Lexend, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.25s ease;
+}
+
+#products .container .product:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px var(--gold);
+}
+
+#products .container .product .product-img img {
+  width: 400px;
+  border-radius: 10px;
+  transition: all 0.25s ease;
+}

@@ -1,0 +1,30 @@
+#footer .footer-content {
+  /* background-color: var(--gri); */
+  color: var(--crem);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-image: url("../imagini/coveraf1.jpg");
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer .footer-content .social-media a img {
+  height: 60px;
+  margin: 0 7px;
+  border-radius: 50%;
+  border: 2px solid var(--crem);
+  padding: 7px;
+  transition: all 0.25s ease;
+}
+
+#footer .footer-content .social-media a img:hover {
+  border: 2px solid var(--gold);
+  transform: scale(1.15);
+}

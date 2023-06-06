@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+#shoe-container {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Lexend, sans-serif;
+  font-size: 20px;
+  margin-top: 50px;
+  background-color: var(--crem);
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#shoe-container .imagine {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+#shoe-container .shoe-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#shoe-container .shoe-content .favorites-button a {
+  width: 25%;
+  height: 30px;
+  background-color: var(--gold);
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 50px !important;
+  font-family: Lexend, sans-serif;
+  border-radius: 10px;
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#shoe-container .shoe-content .favorites-button a:hover {
+  background-color: var(--gri);
+  color: var(--gold);
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#shoe-container .shoe-content * {
+  margin: 10px;
+}

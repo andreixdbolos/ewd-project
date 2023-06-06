@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../imagini/hexagon.png");
+}
+
+#login-content .login-form {
+  background-color: var(--crem);
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Lexend, sans-serif;
+}
+
+#login-content {
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-family: Lexend, sans-serif;
+}
+
+#login-content .login-form #login-button {
+  background-color: var(--gold);
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.4s ease-in-out;
+}
+
+#login-content .login-form #login-button:hover {
+  background-color: rgb(212, 123, 63);
+  color: black;
+  transform: scale(1.1);
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: -3px;
+  font-size: 18px;
+}
+
+#login-content .login-form #username-field {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--gold);
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: Lexend, sans-serif;
+  margin-top: 20px;
+}
+
+#login-content .login-form #password-field {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--gold);
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: Lexend, sans-serif;
+}
+
+#login-content .login-form #login-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#login-content .login-form h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#login-content .login-form #login-container a {
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none !important;
+}
+
+#login-content .login-form #login-container a:hover {
+  color: var(--gold);
+  transform: scale(1.1);
+}
+
+#login-content .login-form #login-container a {
+  color: black;
+  text-decoration: none !important;
+}
+
+#login-content .login-form #login-container a:hover {
+  color: var(--gold);
+  transform: scale(1.1);
+}
